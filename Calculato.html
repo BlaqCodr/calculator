@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    
+    
+   <!--internal CSS -->
+    
+    <style type="text/css" media="all">
+   
+      
+    
+    
+    
+    
+    
+    /*The Body Stylings*/
+    
+    body{
+      background: black;
+      font-family: Comic Sans MS;
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+   /*End Of The Body Stylings*/
+   
+   
+    
+    
+      
+    
+    /*The container div Stylings*/
+    
+    
+    .container{
+      height: 100%;
+      width: 100%;
+      position: relative;
+      background: red;
+    }
+    
+    /*End Of The container div Stylings*/ 
+    
+    
+    
+    
+    
+    
+    /*The print-ready Stylings*/
+    
+    .showcase{
+      height: 150px;
+      width: 100%;
+      background: #404040;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    
+      /*End Of The print-ready Stylings*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*The print-screen Value stylings(the written figure)*/
+    
+    span{
+      color: white;
+      font-size: 2.5em;
+      margin-right: 10px;
+    }
+    
+   /*End Of the print-screen-value stylings*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*Few Stylings on the keyboard*/
+    
+    .keyboard{
+      width: 100%;
+      height: 100% ;
+      align-items: center;
+      background-color: red;
+      position: relative;
+      margin-top: 30px;
+      z-index: 1;
+    }
+    
+   /*End Of Few Stylings on the keyboard*/
+      
+    
+    
+    
+    
+    
+    
+    
+      /*Number Stylings */
+    
+    .number {
+      width: 64px;
+      height: 56px;
+      float: left;
+      border-radius: 5px;
+      margin: 12px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-left: 1.5em;
+      background: #404040;
+      color: white;
+      cursor: pointer;
+    }
+    
+        /*End Of Number Stylings */
+        
+        
+        
+        
+        
+        
+    
+      
+   /*operator stylings*/
+
+    
+    .operator{
+      background-color: #00664d;
+      font-size: 15px;
+      opacity: 0.9;
+      width: 64px;
+      height: 56px;
+      float: left;
+      border-radius: 5px;
+      margin: 12px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-left: 1.5em;
+      color: white;
+    }
+    
+       /*End Of operator stylings*/
+       
+       
+       
+       
+    
+     
+     
+     /*Focus attributes on keyboards*/
+     
+        
+    .operators:focus, .number:focus, .operator:focus{
+      outline: none;
+    }
+    
+         /*End of Focus attributes on keyboards*/
+         
+         
+         
+      
+    
+    /*hover effects on the keyboards*/
+    .operators:hover, .number:hover , .operator:hover{
+      background:#d9b38c ;
+    }
+    
+  /*hover effects on the keyboards*/
+  
+  
+  
+        
+        
+      
+      
+   
+    /*Operator stylings*/
+    
+    .operators{
+      background-color: #00664d;
+      font-size: 25px;
+      opacity: 0.9;
+      width: 64px;
+      height: 56px;
+      float: left;
+      border-radius: 5px;
+      margin: 12px;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-left: 0.7em;
+      padding-bottom: 0.7em ;
+      color: white;
+    }
+    
+    /*End of Operator Stylings*/
+      
+    </style>
+    <!--End of internal CSS-->
+    
+    
+   
+    <title>NewDev Calculator Design</title>
+    
+  </head>
+      
+  <body>
+    
+    
+    <!--The Result Print Screen-->
+    
+ <div class="showcase">
+   <!--The print-screen-value-->
+   <span>9÷2</span>
+  </div>
+      
+   <!--End Of Result Print-Screen-->
+   
+   
+   
+   
+         <!--The Keyboards-->
+      
+      <div class="keyboard">
+         <button class="operator" type="submit">C</button>
+        <button class="operator" type="submit"></button>
+        <button class="operator" type="submit">%</button>
+        <button class="operator" type="submit">+</button>
+        <button class="number" type="submit">7</button>
+        <button class="number" type="submit">8</button>
+        <button class="number" type="submit">9</button>
+        <button class="operator" type="submit">-</button>
+        <button class="number" type="submit">4</button>
+        <button class="number" type="submit">5</button>
+        <button class="number" type="submit">6</button>
+           <button class="operator" type="submit">×</button>
+        <button class="number" type="submit">1</button>
+        <button class="number" type="submit">2</button>
+        <button class="number" type="submit">3</button>
+        <button class="operator" type="submit">÷</button>
+        <button class="number" type="submit">0</button>
+        <button class="operator" type="submit">.</button>
+        <button class="operators" type="submit">&crarr;</button>
+        <button class="operator" type="submit">=</button>
+        
+      </div>
+ 
+  </body>
+</html>
